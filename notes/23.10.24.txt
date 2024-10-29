@@ -1,0 +1,70 @@
+Prerequsite - Javascript
+
+Node Js, Express Js & Mongo db
+
+Node Js - Javascript Runtime Environment - It executes javascript source code and returns output to us.
+
+    V8 ENGINE - Javascript Engine - Google Chrome
+
+Express Js - Backend Framework - Used to write APIs
+
+    APIs - Application Programming Interfaces - Urls
+
+    CRUD Operations
+
+        Creation
+        Read
+        Updation
+        Deletion
+
+Database: A database is a collection of related information that's organized and stored in a computer system for easy access, management, and modification
+
+Sql - My Sql, Postgres Sql, Oracle Db, Maria Db etc...
+No Sql - Mongo db, Dynamo db etc..
+
+Sql Database - Tables
+
+    Users Table
+    Transactions Table
+    Contacts Table
+
+    Users table: - Multiple rows and columns
+
+    Id  Name    Password    Nick Name     Address
+    1.  Manideep manideep90 mani        Hyderabad
+    2.  Dinesh manideep90 mani          Hyderabad
+    3.  Charan manideep90 mani          Hyderabad
+    4.  Satish manideep90 mani          Hyderabad
+
+    Transaction Table:
+
+    Id   Name      Amount
+    1.   Groceries 3000
+    2.   Shopping  10000
+
+Mongo db - No Sql Database
+
+    No Sql - Non Sequential Query Language - Queries - Database Instructions
+
+
+    Database - Collections
+
+    Collection - Array of Objects
+
+    Collection - [
+        {
+            studentId: 103,
+            lastName: Schmitt,
+            firstName: Corine
+        }, - Document
+        {
+            studentId: 103,
+            lastName: Schmitt,
+            firstName: Corine
+        },
+        {
+            studentId: 103,
+            lastName: Schmitt,
+            firstName: Corine
+        }
+    ]

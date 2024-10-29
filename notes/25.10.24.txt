@@ -1,0 +1,34 @@
+Rest APIs - Principles
+
+1. Client Server Architecture
+2. Uniform Interface (Readability of the url)
+
+    http://example.com/api/products
+
+        - GET
+        - POST
+        - PUT
+        - DELETE
+
+3. Layered System (Multiple layers for getting response from api)
+
+    index.js -> Controller -> Service -> Model -> Database - request
+
+    index.js <- Controller <- Service <- Model <- Database - response
+
+4. Stateless Server - Server won't remember any request or response who requested.
+
+Routing: Routing refers to determining how an application responds to a client request to a particular endpoint, 
+which is a URI (or path) and a specific HTTP request method (GET, POST, and so on)
+
+    Query Parameters
+
+        To access query parameter from request object.
+
+            request.query.parameterName;
+
+    Route Parameters
+
+        To access route parameter from request object.
+
+            request.params.parameterName;

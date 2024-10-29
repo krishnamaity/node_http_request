@@ -1,0 +1,59 @@
+Express Js: 
+> Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js.
+> Released as free and open-source software under the MIT License.
+> It is designed for building web applications and APIs. 
+> It has been called the de facto standard server framework for Node.js.
+
+Current Version: 4.16.1
+
+Programming Language: Javascript
+
+Platform: Node Js
+
+To setup project using express:
+
+1. Creation of project folder:
+mkdir ec-services
+cd ec-services
+
+2. Initialization: 
+    npm init (Creates package.json file) - Has all the package name and versions installed in the app.
+
+3. Express framework installation:
+
+    npm install express
+
+4. Creation of entry file for app (index.js)
+
+5. Creation of http server.
+
+    i. To import express
+    const express = require('express'); // Common Js Design Pattern
+
+    ii. Creates object from express func
+    const app = express();
+
+    iii. starts the server on the port no mentioned.
+    app.listen(port, () => {
+        console.log('Server is up on runing!);
+    });
+
+Creation of default API:
+
+CRUD Operations
+C - Create - POST
+R - Read - GET
+U - Update - PUT
+D - Delete - DELETE
+
+    app.get('/', (request, response) => {
+        response.send('Welcome to Express Js App');
+    });
+
+    request - Information passed in the request frontend will be available in this object.
+
+    response - Information which needs to passed from backend will be available in response object.
+
+Task: 
+
+    Create apis for transactions & books
